@@ -171,6 +171,7 @@ body{
   font-size: 2.2em;
   font-weight: 800;
   margin-bottom: 60px;
+  margin-top: 40px;
 }
 
 .section-title:before{
@@ -374,7 +375,7 @@ body{
 }
 
 .work{
-  background: #000016;
+  background: #ffffff;
 }
 
 .work .content{
@@ -517,14 +518,23 @@ body{
   cursor: pointer;
   transition: 0.5s ease;
 }
+#contact{
+  background-color: #000016;
+}
 
 .contact-form .input-box .send-btn:hover{
   background: #235bf6;
 }
 
 .footer{
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 2em;
+}
+.footer__blog{
   background: #000016;
-  color: #fff;
+  color: white;
   text-align: center;
   padding: 2em;
 }
@@ -757,4 +767,79 @@ body{
   border-radius: 3px;
 }
 
+/*Python page*/
+.container h3{
+  padding: 20px 0;
+}
+.python-bg{
+  background-image: url(images/blog/blog1.jpg);
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 10px;
+}
+.python-content{
+  background-color: white;
+  margin: -10rem auto 0 auto;
+  max-width: 85%;
+  border-radius: 10px;
+}
+.python-content__element h3{
+  font-size: 20px;
+}
+@media(min-width:768px){
+  
+  .python-content__element a{
+    margin: 300px;
+  }
+  
+}
+.python-content__element{
+  text-align: center;
+  padding: 5px;
+  border-bottom: 2px solid #e1e1e1;
+}
+.python-content__element img{
+  margin-bottom: 35px;
+}
 
+/*GIT PAGES*/
+.git-bg{
+  background-image: url(images/git/image.png);
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-position: center center;
+}
+
+.git-content{
+  background-color: white;
+  margin: -7rem auto 0 auto;
+  max-width: 85%;
+  border-radius: 10px;
+}
+.git-content__element{
+  text-align: center;
+  border-bottom: 2px solid #e1e1e1;
+  padding: 5px;
+}
+.git-content__element h3{
+  margin-top: 20px;
+  margin-bottom: -20px;
+  font-size: 20px;
+}
+.git-content__element img{
+  max-width: 90%;
+}
+.git-content p{
+  padding: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 700;
+  padding-bottom: 0;
+}
+.git-content a{
+  color: #235bf6;
+}
