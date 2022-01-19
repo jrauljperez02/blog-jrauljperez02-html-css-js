@@ -696,6 +696,9 @@ body{
 
 
 /*Blog*/
+.text-align{
+  text-align: center;
+}
 .container{
   max-width: 80%;
   margin: 0 auto;
@@ -703,6 +706,11 @@ body{
 
 .container h3{
   padding-top: 30px;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+.entry{
+  max-width: 95%;
 }
 .entry:last-of-type{
   padding-bottom: 30px;
@@ -710,10 +718,34 @@ body{
 .entry__content p{
   margin-bottom: 20px;
 }
+.entry__content{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .entry__image img{
   margin-top: 20px;
   max-width: 95%;
   border-radius: 10px;
+}
+.entry__content h4{
+  padding: 20px 0;
+}
+@media(min-width:768px){
+  .entry{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+  }
+  .entry__content{
+    padding: 0;
+  }
+  .entry__content h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .entry__image img{
+    padding: auto;
+  }
 }
 /*Button*/
 .button{
