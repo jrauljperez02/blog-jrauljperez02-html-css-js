@@ -74,7 +74,9 @@ section{
     margin-top: 0;
   }
 }
-
+.languaje{
+  padding: 10px 0;
+}
 .btn{
   color: #fff;
   background: #3a6cf4;
