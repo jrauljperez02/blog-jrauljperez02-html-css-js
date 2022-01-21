@@ -710,6 +710,7 @@ body{
   text-align: center;
 }
 .container{
+  background-color:white;
   max-width: 80%;
   margin: 0 auto;
 }
@@ -842,4 +843,26 @@ body{
 }
 .git-content a{
   color: #235bf6;
+}
+
+/*HTML BLOG*/
+.container img{
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+}
+.container h2{
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.page__icon{
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+@media(min-width:768px){
+  .page__icon{
+    padding: 40px 0;
+  }
 }
