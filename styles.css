@@ -23,6 +23,9 @@ section{
   background-position: center;
   background-attachment: fixed;
 }
+.main2{
+  background: url(images/ciudades.jpg)no-repeat;
+}
 
 .main .content{
   max-width: 800px;
@@ -737,6 +740,7 @@ body{
   margin-top: 20px;
   max-width: 95%;
   border-radius: 10px;
+  padding-right: 20px;
 }
 .entry__content h4{
   padding: 20px 0;
