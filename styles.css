@@ -859,6 +859,10 @@ body{
   margin-bottom: 0px;
   border-radius: 10px;
 }
+.html-title{
+  margin-top: 35px;
+  margin-bottom:5px
+}
 
 .page__icon{
   display: flex;
