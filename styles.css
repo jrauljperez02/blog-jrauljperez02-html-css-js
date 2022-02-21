@@ -26,6 +26,12 @@ section{
 .main2{
   background: url(images/ciudades.jpg)no-repeat;
 }
+.main3{
+  background: url(images/python.jpg)no-repeat;
+}
+.main4{
+  background: url(images/git.jpg)no-repeat;
+}
 
 .main .content{
   max-width: 800px;
@@ -225,7 +231,7 @@ body{
 }
 
 .about .content .col-left .img-card img{
-  position: absolute;
+  
   top: 0;
   left: 0;
   width: 100%;
@@ -719,36 +725,35 @@ body{
 }
 
 .container h3{
-  padding-top: 30px;
-  font-size: 42px;
+  margin-top: 34px;
+  font-size: 25px;
   text-transform: uppercase;
 }
 .entry{
-  max-width: 95%;
+  max-width: 100%;
 }
 .entry:last-of-type{
   padding-bottom: 30px;
 }
-.entry__content p{
-  margin-bottom: 20px;
-}
-.entry__content{
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 .entry__image img{
-  margin-top: 20px;
-  max-width: 95%;
+  max-width: 100%;
   border-radius: 10px;
-  padding-right: 20px;
 }
+
 .entry__content h4{
-  padding: 20px 0;
+  padding: 10px 0;
 }
+
+.entry__content p{
+  margin-bottom: 30px;
+}
+
+
 @media(min-width:768px){
   .entry{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    column-gap: 20px;
     padding: 20px;
   }
   .entry__content{
@@ -773,9 +778,7 @@ body{
 }
 
 /*Python page*/
-.container h3{
-  padding: 20px 0;
-}
+
 .python-bg{
   background-image: url(images/blog/blog1.jpg);
   height: 300px;
@@ -856,10 +859,7 @@ body{
   margin-bottom: 0px;
   border-radius: 10px;
 }
-.container h2{
-  padding-top: 40px;
-  padding-bottom: 20px;
-}
+
 .page__icon{
   display: flex;
   justify-content: center;
