@@ -11,28 +11,34 @@
 section{
   padding: 100px 200px;
 }
-
+/*Index*/
 .main{
   position: relative;
   width: 100%;
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(images/bg.jpeg)no-repeat;
+  background: url(images/home.jpeg)no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
+/*Blog HTML*/
 .main2{
-  background: url(images/ciudades.jpg)no-repeat;
+  background: url(images/blog.jpg)no-repeat;
 }
+/*Python.html*/
 .main3{
   background: url(images/python.jpg)no-repeat;
 }
+/*HTML/CSS/JS.html*/
 .main4{
+  background: url(images/html.png)no-repeat;
+}
+/*git.html;*/
+.main5{
   background: url(images/git.jpg)no-repeat;
 }
-
 .main .content{
   max-width: 800px;
 }
@@ -332,7 +338,7 @@ body{
 }
 
 .skills .content .col-right .bar .php:before{
-  width: 75%;
+  width: 50%;
   background: #6d7eb8;
 }
 
